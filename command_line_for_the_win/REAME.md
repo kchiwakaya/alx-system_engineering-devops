@@ -13,11 +13,17 @@ As each task is completed, the name of that task will turn green
 Create a screenshot, showing that you completed the required levels
 Push this screenshot with the right name to GitHub, in either the PNG or JPEG format
 ## Steps followed in using SFTP
-1.Opened my local command prompt on Windows
-2.  Navigated to the folder containing my screenshots
-3. Opened my sandbox in my intranet
-4. Copied my SFTP
-5. Logged in to my local command prompt
-6. Copied password from intranet
-7. Applied it to my local command prompt
-8. Moved my screenshots to the remote server using the put command to the remote directory
+<ul>
+  <li>Opened my local command prompt on Windows</li>
+  <li>Navigated to the folder containing my screenshots</li>
+  <li>Opened my sandbox in my intranet</li>
+  <li>Copied my SFTP remote address</li>
+  <li>Logged in to my local command prompt</li>
+  <li>Copied password from intranet</li>
+  <li>Applied it to my local command prompt</li>
+  <li>Moved my screenshots to the remote server using the put command to the remote directory</li>
+  <li>Opened my terminal on the Intranet </li>
+  <li>Navigated to the command_line_for_the_win folder to check if were my folders were available</li>
+  <li>Pushed the files to github</li>
+</ul>
+
