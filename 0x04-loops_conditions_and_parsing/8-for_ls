@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# dash
+for file in $(ls)
+do
+  # Check if the file is a hidden file
+  if [[ $file != .* ]]
+  then
+    # Get the part of the name after the first dash
+    filename=${file#*-}
+
+    # Display the filename in a list format
+    echo "$filename"
+  fi
+done
