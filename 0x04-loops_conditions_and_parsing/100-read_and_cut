@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# password cracking
+passwd_file=$(open -r /etc/passwd)
+
+# Create a variable to store the current line of the file
+line=""
+
+# Start the while loop
+while read -r line; do
+
+  # Split the line into fields using the colon (:) character as a delimiter
+  fields=($line:)
+
+  # Extract the username, user ID, and home directory path from the fields
+  username=${fields[0]}
+  user_id=${fields[2]}
+  home_dir=${fields[5]}
+
+  # Display the username, user ID, and home directory path for the user
+  echo "$username, $user_id, $home_dir"
+
+done < "$passwd_file"
+
+# Close the file `/etc/passwd`
+close "$passwd_file"
