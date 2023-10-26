@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# while hey
+# Start the while loop
+minute=0
+while [[ $minute -le 60 ]]; do
+  # Check if the minute variable is equal to 0
+  if [[ $minute -eq 0 ]]; then
+    echo "Hour:$minute"
+  # Check if the minute variable is equal to 1
+  elif [[ $minute -eq 60 ]]; then
+    echo "Hour: 1"
+    minute=1
+  # Otherwise, display the minute variable
+  else
+    echo "$minute"
+  fi
+
+  # Increment the minute variable
+  minute=$((minute+1))
+done
