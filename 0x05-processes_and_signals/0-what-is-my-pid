@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Get current PID
+pid=$$
+
+echo "My PID is: $pid"
