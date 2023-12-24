@@ -1,6 +1,5 @@
 # kill process
-exec { 'kill_killmenow_process':
-  command     => 'pkill killmenow',
-  path        => '/usr/bin:/bin', 
-  refreshonly => true,             
+exec { 'killmenow':
+  command => 'pkill -f killmenow'
+  path    => ['/usr/bin', '/usr/sbin', '/bin']
 }
