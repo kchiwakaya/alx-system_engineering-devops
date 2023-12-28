@@ -1,0 +1,5 @@
+#!/bin/bash
+
+server = "54.237.1.135"
+
+ssh -i ~/.ssh/school -o User=Ubuntu "$server"
