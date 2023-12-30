@@ -1,5 +1,5 @@
 #!/bin/bash
 
-server = "54.237.1.135"
+# hey bew server
 
 ssh ubuntu@54.237.1.135 -i ~/.ssh/school
