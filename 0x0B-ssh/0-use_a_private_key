@@ -2,4 +2,4 @@
 
 server = "54.237.1.135"
 
-ssh -i ~/.ssh/school -o User=Ubuntu "$server"
+ssh ubuntu@54.237.1.135 -i ~/.ssh/school
