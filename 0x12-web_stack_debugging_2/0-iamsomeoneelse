@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Check for one argument
+if [ "$#" -ne 1 ]; then
+ echo "Usage: $0 <user>"
+ exit 1
+fi
+
+# Store the provided argument in a variable
+user="$1"
+
+# Run the whoami command under the specified user
+sudo -u "$user" whoami
+
+# Output any potential errors
+if [ $? -ne 0 ]; then
+ echo "Error: Unable to run command as the specified user."
+fi
+
+exit 0
+
+
+
