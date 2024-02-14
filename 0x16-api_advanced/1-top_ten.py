@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""quireie reddit"""
 import requests
 """quirie reddit"""
 
