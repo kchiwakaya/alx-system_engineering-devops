@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Reddits readd API"""
 import requests
 """Sub tr"""
 
