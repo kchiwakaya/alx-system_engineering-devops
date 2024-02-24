@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 
 # hey bew server
-
 ssh ubuntu@54.237.1.135 -i ~/.ssh/school
